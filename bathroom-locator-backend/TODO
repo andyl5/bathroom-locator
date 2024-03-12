@@ -1,0 +1,6 @@
+DONE 1. Create sample JSON with longitude and latitude
+DONE 2. Write Haversine function (calculates distance between two locations)
+3. Design an algorithm to efficiently find the 5 (working number) nearest locations to the 
+source location
+
+4. Source data from got2gonyc
