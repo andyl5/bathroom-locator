@@ -1,3 +1,8 @@
+# Bathroom Locator frontend
+
+# Running the project locally
+Clone the project. Install the dependencies `npm install`. Run the project `npm run dev`.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
