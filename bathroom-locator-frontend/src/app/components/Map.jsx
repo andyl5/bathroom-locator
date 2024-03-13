@@ -6,7 +6,7 @@ import 'leaflet-defaulticon-compatibility';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import { useEffect } from 'react';
 
-export default function Map({ latitude, longitude, url }) {
+export default function Map({ name, latitude, longitude, url, distance }) {
 
   const RecenterAutomatically = ({lat,lng}) => {
     const map = useMap();
@@ -24,7 +24,7 @@ export default function Map({ latitude, longitude, url }) {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
         <Marker position={[latitude, longitude]}>
           <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
+            {name} <br /> {distance} miles away
           </Popup>
         </Marker>
         <RecenterAutomatically lat={latitude} lng={longitude} />

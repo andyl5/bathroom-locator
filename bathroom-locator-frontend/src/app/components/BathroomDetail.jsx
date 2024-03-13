@@ -55,7 +55,7 @@ export default function BathroomDetail({ name, address, distance, latitude, long
 						{infoContent}
 					</div>
 					<div className={`${isActiveTab(2) ? "" : "hidden"} p-4 rounded-lg bg-gray-50 ~dark:bg-gray-800`} role="tabpanel">
-						{isActiveTab(2) ? <Map url={googleMapsURL} latitude={latitude} longitude={longitude} /> : null}
+						{isActiveTab(2) ? <Map name={name} distance={distance} url={googleMapsURL} latitude={latitude} longitude={longitude} /> : null}
 					</div>
 				</div>
 			</div>
