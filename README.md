@@ -3,7 +3,7 @@ You’re outside in NYC exploring a new part of the city, but then you get the u
 
 Bathroom Locator shows you nearby public bathrooms based on your device's GPS location. It also shows details about a bathroom such as user ratings and reviews, so you can choose the best bathroom to take care of your business.
 
-DEMO COMING SOON
+https://github.com/andyl5/bathroom-locator/assets/81489476/6ff59ebc-5a40-4213-b2d2-824de36bfa91
 
 ## How It's Made:
 
