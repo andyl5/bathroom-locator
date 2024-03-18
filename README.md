@@ -24,5 +24,6 @@ One challenge I encountered was the Leaflet map failing to reposition its view t
 
 ## In Progress
 * Review queue to approve user-submitted bathrooms
-* Adding more bathroom details, user ratings, reviews
 * User login and authentication (Google OAuth)
+* CDN to store images and other files
+* Adding more bathroom details, user ratings
